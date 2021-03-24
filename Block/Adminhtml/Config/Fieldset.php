@@ -57,9 +57,7 @@ class Fieldset extends \Magento\Config\Block\System\Config\Form\Fieldset
         }
         $html .= '<colgroup class="scope-label" /><colgroup class="" /><tbody>';
         $html .= '<div style="position:absolute;right: 0px;top:0px;display: flex;flex-direction: column;justify-content: center;">
-                    <img src="'.$this->getViewFileUrl('Iyzico_PayWithIyzico::iyzico/logo.png').'" style="    width: 150px;
-    margin-left: auto;" />
-                    <img src="'.$this->getViewFileUrl('Iyzico_PayWithIyzico::iyzico/zihni.png').'" style="    width: auto;
+                    <img src="'.$this->getViewFileUrl('Iyzico_PayWithIyzico::iyzico/paywithiyzico-logo.png').'" style="    width: 150px;
     margin-left: auto;" />
                 </div>';
         return $html;
