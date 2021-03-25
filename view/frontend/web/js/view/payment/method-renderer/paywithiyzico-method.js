@@ -19,6 +19,9 @@ define(
             defaults: {
                 template: 'Iyzico_PayWithIyzico/payment/paywithiyzico'
             },
+            getPayWithIyzicoLogo: function (){
+                return window.imgpath;
+            },
             payWithIyzico: function (){
                 var quoteEmail, guestQuoteId = false;
 
@@ -29,7 +32,7 @@ define(
 
                 $( document ).ready(function() {
 
-                    $("#loadingBar").show();
+                    $("#pwiLoadingBar").show();
 
                     if(!customer.isLoggedIn()) {
                         quoteEmail = quote.guestEmail;

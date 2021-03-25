@@ -57,11 +57,11 @@ class DataAssignObserver implements \Magento\Framework\Event\ObserverInterface {
 
 
             $paymentId = $this->_checkoutSession->getQuote()->getIyzicoPaymentId();
-            $iyziPaymentStatus = $this->_checkoutSession->getQuote()->getIyziPaymentStatus();
+            $PayWithIyzicoPaymentStatus = $this->_checkoutSession->getQuote()->getPayWithIyzicoPaymentStatus();
 
             $order = $observer->getEvent()->getOrder();
 
-            if($iyziPaymentStatus == 'pending') {
+            if($PayWithIyzicoPaymentStatus == 'pending') {
                 $order->setState('pending');
                 $order->setStatus('pending');
 
@@ -69,7 +69,7 @@ class DataAssignObserver implements \Magento\Framework\Event\ObserverInterface {
 
             }
 
-            if($iyziPaymentStatus == 'success') {
+            if($PayWithIyzicoPaymentStatus == 'success') {
 
                 /* Create Invoice With Installment */
 

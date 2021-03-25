@@ -231,10 +231,10 @@ class PayWithIyzico extends \Magento\Framework\App\Action\Action implements Csrf
 
         /* Error Redirect End */
 
-        $this->_quote->setIyziPaymentStatus('success');
+        $this->_quote->setPayWithIyzicoPaymentStatus('success');
 
         if($requestResponse->paymentStatus == 'INIT_BANK_TRANSFER' && $requestResponse->status == 'success') {
-            $this->_quote->setIyziPaymentStatus('pending');
+            $this->_quote->setPayWithIyzicoPaymentStatus('pending');
     }
 
         /* Card Save */
