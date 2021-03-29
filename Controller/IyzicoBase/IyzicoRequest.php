@@ -58,7 +58,7 @@ class IyzicoRequest
 		    $curl, CURLOPT_HTTPHEADER, array(
 		        "Authorization: " .$authorizationData['authorization'],
 		        "x-iyzi-rnd:".$authorizationData['rand_value'],
-                "php-version:". $phpVersion(),
+                "php-version:". $phpVersion,
 		        "Content-Type: application/json",
 		    )
 		);
