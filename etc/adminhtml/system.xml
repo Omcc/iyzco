@@ -3,7 +3,7 @@
 	<system>
 		<section id="payment" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1000" translate="label">
 			<group id="paywithiyzico" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
-				<label>iyzico ile Öde</label>
+				<label>Pay with iyzico</label>
 			 	<frontend_model>Iyzico\PayWithIyzico\Block\Adminhtml\Config\Fieldset</frontend_model>
 				<field id="active" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
 					<label>Enabled</label>

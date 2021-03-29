@@ -28,7 +28,7 @@ use Magento\Sales\Model\Order;
 
 
 
-class DataAssignObserver implements \Magento\Framework\Event\ObserverInterface {
+class PayWithIyzicoDataAssignObserver implements \Magento\Framework\Event\ObserverInterface {
     /**
      * @var \Magento\Framework\ObjectManager\ObjectManager
     */

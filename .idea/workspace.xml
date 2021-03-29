@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88bb170a-9d37-47d1-a2e4-618a46bd9cf9" name="Default Changelist" comment="+admin config changed">
+      <change beforePath="$PROJECT_DIR$/.idea/PayWithIyzico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PayWithIyzico.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/IyzicoBase/IyzicoRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/IyzicoBase/IyzicoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Response/PayWithIyzico.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Response/PayWithIyzico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/DataAssignObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/PayWithIyzicoDataAssignObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/adminhtml/system.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/adminhtml/system.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/layout/checkout_index_index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/layout/checkout_index_index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/web/js/view/payment/method-renderer/paywithiyzico-method.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/web/js/view/payment/method-renderer/paywithiyzico-method.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/web/template/payment/paywithiyzico.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/web/template/payment/paywithiyzico.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qA82inDDotPRW4EGEeFZqEl58N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88bb170a-9d37-47d1-a2e4-618a46bd9cf9" name="Default Changelist" comment="" />
+      <created>1616510829608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616510829608</updated>
+      <workItem from="1616510830784" duration="1247000" />
+      <workItem from="1616659002633" duration="265000" />
+      <workItem from="1616967670978" duration="460000" />
+    </task>
+    <task id="LOCAL-00001" summary="+admin config changed">
+      <created>1616567937197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616567937197</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+frontend images, some code changes.">
+      <created>1616659067252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616659067252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+admin config changed" />
+    <MESSAGE value="+frontend images, some code changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="+frontend images, some code changes." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="99" y="23" key="CommitChangelistDialog2" timestamp="1617006231929">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="99" y="23" key="CommitChangelistDialog2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1617006231929" />
+    <state x="575" y="354" key="Github.ShareDialog" timestamp="1616967724027">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="575" y="354" key="Github.ShareDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1616967724027" />
+    <state x="419" y="162" key="Github.UntrackedFilesDialog" timestamp="1616510901566">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="419" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1616510901566" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1616659072802">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1616659072802" />
   </component>
 </project>

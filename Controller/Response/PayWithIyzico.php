@@ -91,9 +91,7 @@ class PayWithIyzico extends \Magento\Framework\App\Action\Action implements Csrf
         $resultRedirect = $this->_resultRedirect->create(ResultFactory::TYPE_REDIRECT);
         $this->_quote = $this->_checkoutSession->getQuote();
 
-        //var_dump($postData['token'] . '------' . $this->_customerSession->getIyziToken());
-
-        /* if(!isset($postData['token'])) {
+        if(!isset($postData['token'])) {
 
             $errorMessage = __('Token not found');
             $this->_messageManager->addError($errorMessage);
@@ -109,7 +107,7 @@ class PayWithIyzico extends \Magento\Framework\App\Action\Action implements Csrf
             $resultRedirect->setPath('checkout/cart', ['_secure' => true]);
             return $resultRedirect;
 
-        } */
+        }
 
 
 
@@ -205,8 +203,6 @@ class PayWithIyzico extends \Magento\Framework\App\Action\Action implements Csrf
         }
 
         /* Order ID Confirmation */
-        //var_dump($this->_quote->getId() . '--------' . $requestResponse->basketId);
-        //exit();
         if($this->_quote->getId() != $requestResponse->basketId) {
 
             $errorMessage = __('Order Not Match');

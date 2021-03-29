@@ -41,6 +41,8 @@ class IyzicoRequest
 
 	public function curlPost($json,$authorizationData,$url) {
 
+        $phpVersion = phpversion();
+
 		$curl = curl_init();
 		curl_setopt($curl, CURLOPT_URL, $url);
 		if ($json) {
@@ -56,6 +58,7 @@ class IyzicoRequest
 		    $curl, CURLOPT_HTTPHEADER, array(
 		        "Authorization: " .$authorizationData['authorization'],
 		        "x-iyzi-rnd:".$authorizationData['rand_value'],
+                "php-version:". $phpVersion(),
 		        "Content-Type: application/json",
 		    )
 		);

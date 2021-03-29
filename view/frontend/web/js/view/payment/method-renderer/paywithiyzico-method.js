@@ -25,7 +25,6 @@ define(
             payWithIyzico: function (){
                 var quoteEmail, guestQuoteId = false;
 
-
                 if(!additionalValidators.validate()) {   //Resolve checkout aggreement accept error
                     return false;
                 }
