@@ -155,7 +155,9 @@ class PayWithIyzico extends \Magento\Framework\App\Action\Action implements Csrf
                             ->load($salesOrderId);
 
                         $order->setState("processing")->setStatus("processing");
-                        $order->addStatusHistoryComment('Banka transferi başarıyla tamamlandı.')->setIsVisibleOnFront(true);
+                        $bankTransferComment = __('Bank Transfer success.');
+
+                        $order->addStatusHistoryComment($bankTransferComment)->setIsVisibleOnFront(true);
 
                         $order->save();
                         return $this->httpResponseForNotification(200,"OK");

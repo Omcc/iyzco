@@ -44,8 +44,6 @@ define(
                         type: "post",
                         dataType: "html"
                     }).done(function (data) {
-                        console.log(data);
-                        console.log(urlBuilder.build("Iyzico_PayWithIyzico/request/paywithiyzico"));
                         window.location.href = data;
                     });
 

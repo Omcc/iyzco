@@ -64,8 +64,9 @@ class PayWithIyzicoDataAssignObserver implements \Magento\Framework\Event\Observ
             if($PayWithIyzicoPaymentStatus == 'pending') {
                 $order->setState('pending');
                 $order->setStatus('pending');
+                $bankTransferComment = __('Bank Transfer is waiting.');
 
-                $order->addStatusHistoryComment('Banka transferi bekleniyor.')->setIsVisibleOnFront(true);
+                $order->addStatusHistoryComment($bankTransferComment)->setIsVisibleOnFront(true);
 
             }
 
