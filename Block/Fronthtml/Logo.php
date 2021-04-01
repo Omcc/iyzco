@@ -1,6 +1,6 @@
 <?php
 
-namespace Iyzico\PayWithIyzico\Block;
+namespace Iyzico\PayWithIyzico\Block\Fronthtml;
 use Magento\Framework\View\Element\Template;
 
 class Logo extends Template{

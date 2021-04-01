@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 	<body>
         <referenceContainer name="after.body.start">
-            <block class="Iyzico\PayWithIyzico\Block\Logo" name="logo.script" template="Iyzico_PayWithIyzico::pwilogo.phtml"/>
+            <block class="Iyzico\PayWithIyzico\Block\Fronthtml\Logo" name="logo.script" template="Iyzico_PayWithIyzico::pwilogo.phtml"/>
         </referenceContainer>
 		<referenceBlock name="checkout.root">
 			<arguments>
