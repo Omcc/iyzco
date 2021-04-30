@@ -1,13 +1,13 @@
-# iyzico - Magento 2 Payment Gateway
+# Pay With Iyzico - Magento 2 Payment Gateway
 ------------
 * Create live account at https://merchant.iyzipay.com
-* Create test account at https://sandbox-iyzipay.com
+* Create test account at https://sandbox-merchant.iyzipay.com
 
 # Requirements
 ------------
 * PHP 7.0.x and greater.
 * cURL
-* [Magento2 version 2.2+](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html)
+* [Magento2 version 2.2.3+](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html)
 
 # Collaboration
 ------------
@@ -26,7 +26,7 @@
 * Enjoy :)
 ```
 
-<a href="https://dev-beta.iyzipay.com/tr/3-secenek/teknik-bilgi-gerekli">Detailed Info</a>
+<a href="https://dev.iyzipay.com/tr/acik-kaynak/magento">Detailed Info</a>
 
 # Support
 ---------------
@@ -41,7 +41,7 @@
 
 # Notes
 ---------------
-* Developed and Tested on vanilla Magento2 2.2+ Installation
+* Developed and Tested on vanilla Magento2 2.2.3+ Installation
 
 # License
 ---------------
